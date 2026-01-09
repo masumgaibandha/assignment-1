@@ -47,9 +47,16 @@ nav {
   
 }
 
-.banner {
+
+
+.banner{
   text-align: center;
-  background: url("../assets/hero-bg.png"), rgba(0, 25, 49, 0.8);
+  background-image:
+    linear-gradient(rgba(0, 25, 49, 0.35), rgba(0, 25, 49, 0.35)),
+    url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 80px 0;
 }
 
