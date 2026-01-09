@@ -20,7 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 120px;
+  padding: 20px 120px;
 }
 .nav-menu li {
   list-style: none;
@@ -38,8 +38,8 @@ nav {
 
 .banner {
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("/images/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("../images/hero.jpg");
   /* background-image: url("/images/hero.jpg"); */
   background-size: cover;
   background-position: center top;
@@ -87,7 +87,7 @@ nav {
 }
 
 .card {
-  max-width: 322px;
+  max-width: 330px;
   height: 300px;
   box-shadow: 0 0 8px 0 #8b8383;
   text-align: center;
